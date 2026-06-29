@@ -1,7 +1,6 @@
 import Navbar from "@/components/navbar"
 import Hero from "@/components/hero"
 import SelectedWork from "@/components/selected-work"
-import AboutSection from "@/components/about-section"
 import ExperienceList from "@/components/experience-list"
 import ContactFooter from "@/components/contact-footer"
 
@@ -11,9 +10,8 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <SelectedWork />
-        <AboutSection />
         <ExperienceList />
+        <SelectedWork />
         <ContactFooter />
       </main>
     </div>

@@ -41,13 +41,9 @@ export default function ContactFooter() {
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">
             Contact
           </p>
-          <h2 className="font-sans text-3xl md:text-5xl font-medium tracking-tight mb-6">
+          <h2 className="font-sans text-3xl md:text-5xl font-medium tracking-tight mb-10">
             Get in touch<span className="text-accent">.</span>
           </h2>
-          <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-10">
-            I'm open to new-grad SWE roles for 2027 and interesting summer 2026 work that lines up.
-            Email is the fastest way to reach me.
-          </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap gap-3">
             {contactLinks.map((link, i) => {

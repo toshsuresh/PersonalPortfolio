@@ -100,7 +100,7 @@ export default function SelectedWork() {
               Selected Work
             </p>
             <h2 className="font-sans text-3xl md:text-4xl font-medium tracking-tight">
-              Things I've built
+              Projects
             </h2>
           </div>
           <p className="hidden sm:block text-sm text-muted-foreground max-w-xs">

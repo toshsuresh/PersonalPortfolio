@@ -78,3 +78,27 @@
   scrollbar-width: thin;
   scrollbar-color: hsl(var(--border)) hsl(var(--background));
 }
+
+/* Hero aurora blobs — slow, restrained */
+@keyframes aurora-drift-a {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(60px, 40px, 0) scale(1.1); }
+}
+
+@keyframes aurora-drift-b {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(-50px, -30px, 0) scale(1.05); }
+}
+
+@keyframes aurora-drift-c {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(30px, -50px, 0) scale(0.95); }
+}
+
+.aurora-blob-a { animation: aurora-drift-a 18s ease-in-out infinite; }
+.aurora-blob-b { animation: aurora-drift-b 24s ease-in-out infinite; }
+.aurora-blob-c { animation: aurora-drift-c 21s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .aurora-blob-a, .aurora-blob-b, .aurora-blob-c { animation: none; }
+}
