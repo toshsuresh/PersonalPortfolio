@@ -1,0 +1,15 @@
+node_modules
+.compound-engineering/*.local.yaml
+
+# Next.js
+/.next/
+/out/
+/build
+next-env.d.ts
+
+# misc
+.DS_Store
+*.tsbuildinfo
+
+# env
+.env*.local
